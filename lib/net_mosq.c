@@ -27,6 +27,7 @@ Contributors:
 #include <winsock2.h>
 #include <ws2tcpip.h>
 #endif
+#define AI_ADDRCONFIG               0x00000400
 
 #ifdef __ANDROID__
 #include <linux/in.h>
